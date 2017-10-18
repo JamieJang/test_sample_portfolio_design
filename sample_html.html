@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="font.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<!-- Header Image & Text -->
+	<div class="header-box" id="home">
+		<header class='nav-down' id="navi">
+			<ul>
+				<li><a href=>Home</a></li>
+				<li><a onclick="moveToTag('info')">About</a></li>
+				<li><a onclick="moveToTag('portfolio')">Portfolio</a></li>
+			</ul>			
+		</header>
+		<div class="header-text">
+			<small> WEB DEVELOPER </small><br>
+			HI, I AM JANG JIYONG<br>			
+		</div>
+	</div>
+
+	<!-- Brief info about me  -->
+	<div class="info-box" id="info">
+		<div class="container info-text">
+			<h1>About me</h1>
+			<p>
+				I am passionate about develop web with various functions. I want to become someone who can handle everything from server construction to front end service. Also I am becoming to what I want to be. I have interest in service that make people can communicate freely like social network service. 
+			</p>
+		</div>
+	</div>
+
+	<!-- Lists of portfolio -->
+	<div class="portfolio-box" id="portfolio">
+		<div class="portfolio">
+			<h1>What I do</h1>
+			<div class="each each-odd">
+				<div class="pf_text">
+					<h3>This is scheduler. can write and check succes.</h3>
+				</div>
+				<div class="pf_thumbnail scheduler"></div>
+			</div>
+			<div class="each each-even">
+				<div class="pf_text">
+					<h3>PF</h3>
+				</div>
+				<div class="pf_thumbnail shoppingmall"></div>				
+			</div>
+			<div class="each each-odd">
+				<div class="pf_text">
+					<h3>PF</h3>
+				</div>
+				<div class="pf_thumbnail chatting"></div>
+			</div>
+			<div class="each each-even">
+				<div class="pf_text">
+					<h3>PF</h3>
+				</div>
+				<div class="pf_thumbnail searchingDocs"></div>
+			</div>
+			<div class="each each-odd">
+				<div class="pf_text">
+					<h3>PF</h3>
+				</div>
+				<div class="pf_thumbnail price_compare"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="portfolio.js"></script>
+
+</body>
+</html>
